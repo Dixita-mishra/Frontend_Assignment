@@ -1,0 +1,66 @@
+body{
+   margin:0;
+   padding:0;
+   display:flex;
+   height:100vh;
+    justify-content:center;
+    align-items:center;
+    background-color: #f0f0f0;
+
+}
+#main{
+    width:400px;
+    height:auto;
+    background-color:#ffffff;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+    padding:20px;
+    border-radius:8px;
+    
+}
+.inputBox{
+    display:flex;
+    margin-bottom:20px;
+    gap:10px;
+
+}
+.inputBox input{
+    flex:1;
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:4px;
+    font-size:16px;
+}
+.inputBox button{
+    padding:10px 20px;
+    border:none;
+    background-color:#28a745;
+    color:#fff;
+    border-radius:4px;
+    font-size:16px;
+    cursor:pointer;
+}
+.deleteBtn, .editBtn {
+  background-color: transparent;
+  border:none;
+  background-color: #dedede;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 8px;
+  font-weight: bold;
+}
+
+.deleteBtn {
+  color: #e74c3c; /* red */
+}
+
+.editableBtn {
+  color: #3498db; /* blue */
+}
+
+.deleteBtn:hover {
+  opacity: 0.7;
+}
+
+.editBtn:hover {
+  opacity: 0.7;
+}
